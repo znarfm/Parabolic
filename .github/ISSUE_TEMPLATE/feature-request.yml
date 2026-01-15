@@ -1,0 +1,17 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: feature-desc
+    attributes:
+      label: Describe the feature
+      description: Describe what you would like us to add and how it will benefit users.
+    validations:
+      required: true
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Mockup (Optional)
+      description: Provide a mockup or link to an image. You can drag and drop images here.
